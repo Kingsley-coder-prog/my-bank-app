@@ -330,25 +330,55 @@ btnSort.addEventListener('click', function (e) {
 // console.log(+(2.345).toFixed(2));
 
 // Remainder operator
-console.log(5 % 2);
-console.log(5 / 2); // 5 = 2 * 2 + 1
+// console.log(5 % 2);
+// console.log(5 / 2); // 5 = 2 * 2 + 1
 
-console.log(8 % 3);
-console.log(8 / 3); // 8 = 2 * 3 + 2
+// console.log(8 % 3);
+// console.log(8 / 3); // 8 = 2 * 3 + 2
 
-console.log(6 % 2);
-console.log(6 / 2);
+// console.log(6 % 2);
+// console.log(6 / 2);
 
-const isEven = n => n % 2 === 0;
-console.log(isEven(8));
-console.log(isEven(23));
-console.log(isEven(514));
+// const isEven = n => n % 2 === 0;
+// console.log(isEven(8));
+// console.log(isEven(23));
+// console.log(isEven(514));
 
-labelBalance.addEventListener('click', function () {
-  [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
-    // 0, 2, 4, 6
-    if (i % 2 === 0) row.style.backgroundColor = 'orangered';
-    // 0, 3, 6, 9
-    if (i % 3 === 0) row.style.backgroundColor = 'blue';
-  });
-});
+// labelBalance.addEventListener('click', function () {
+//   [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
+//     // 0, 2, 4, 6
+//     if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+//     // 0, 3, 6, 9
+//     if (i % 3 === 0) row.style.backgroundColor = 'blue';
+//   });
+// });
+
+// // Numeric Seperator
+// const diameter = 287_460_000_000;
+// console.log(diameter);
+
+// console.log(Number('230_000')); // will give NaN
+
+// // Working with BigInt
+// console.log(2 ** 53 - 1);
+// console.log(Number.MAX_SAFE_INTEGER);
+
+// // Operations
+// console.log(10000n + 10000n);
+// console.log(2341637847392928374848647488499590302938n + 10000000n);
+
+// const huge = 20349465739238434758688n;
+// const num = 23;
+// console.log(huge * BigInt(num));
+
+// // Exceptions
+// console.log(20n > 15);
+// console.log(20n === 20);
+// console.log(typeof 20n);
+// console.log(20n == '20');
+
+// console.log(huge + ' is REALLY big!!!');
+
+// // Divisions
+// console.log(11n / 3n);
+// console.log(10 / 3);
